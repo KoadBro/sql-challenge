@@ -1,0 +1,49 @@
+-- create table employees (
+-- 	i int primary key,
+-- 	employee_number int,
+-- 	employee_title_id int,
+-- 	birth_date date,
+-- 	first_name varchar(20),
+-- 	last_name varchar(20),
+-- 	sex varchar(10),
+-- 	hire_date date,
+-- 	check(sex in ('Male', 'Female'))
+-- )
+-- ;
+
+-- create table titles (
+-- 	i int primary key,
+-- 	title_id varchar(20),
+-- 	title varchar(20)
+-- )
+-- ;
+-- create table departments (
+-- 	i int primary key,
+-- 	dept_no varchar,
+-- 	dept_name varchar
+-- )
+-- ;
+-- create table dept_emp (
+-- 	i int primary key,
+-- 	dept_no varchar(20),
+-- 	dept_name varchar(20)
+-- )
+-- ;
+-- create table dept_manager (
+-- 	i int primary key,
+-- 	employee_number int,
+-- 	employee_title_id int,
+-- 	birth_date date,
+-- 	first_name varchar(20),
+-- 	last_name varchar(20),
+-- 	sex varchar(10),
+-- 	hire_date date,
+-- 	check(sex in ('Male', 'Female'))
+-- )
+-- ;
+-- create table salaries (
+-- 	i int primary key,
+-- 	emp_no int,
+-- 	salary money
+-- )
+-- ;
